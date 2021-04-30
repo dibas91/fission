@@ -50,7 +50,8 @@ deploy:
           fetcher.imageTag: ""
           imageTag: ""
           prometheus.enabled: false
-          debugEnv: false
+          mqt_keda.enabled: true
+          debugEnv: true
         wait: true
         recreatePods: false
         packaged: null
